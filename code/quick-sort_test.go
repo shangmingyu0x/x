@@ -1,7 +1,6 @@
 package code
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -56,7 +55,7 @@ func Test_quickSort(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			quickSort(tt.args.nums, tt.args.start, tt.args.end)
-			fmt.Println(tt.args.nums)
+			t.Logf("after: %v\n", tt.args.nums)
 		})
 	}
 }
