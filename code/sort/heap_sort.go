@@ -1,4 +1,4 @@
-package code
+package sort
 
 // 912. 排序数组 https://leetcode.cn/problems/sort-an-array/S
 

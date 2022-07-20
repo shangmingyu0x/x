@@ -1,4 +1,6 @@
-package code
+package sort
+
+// 912. 排序数组 https://leetcode.cn/problems/sort-an-array/S
 
 func quickSort(nums []int, start, end int) {
 	if start >= end {
